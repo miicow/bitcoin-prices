@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import BitcoinPrice from './components/BitcoinChart.jsx';
 
-ReactDOM.render(<h1>Hello</h1>, document.getElementById('app'));
+ReactDOM.render(<BitcoinPrice />, document.getElementById('app'));
